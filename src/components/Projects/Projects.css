@@ -1,0 +1,11 @@
+.projects-container {
+  background-color: #f8f9fa;
+}
+.project-container {
+  background-color: white;
+  border-radius: 1rem;
+  border: 1px solid #ddd;
+  margin-bottom: 5rem;
+  margin: 10px;
+  margin-bottom: 5rem;
+}
