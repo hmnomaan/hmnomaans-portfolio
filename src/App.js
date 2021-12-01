@@ -8,6 +8,11 @@ import About from './components/About/About.js';
 import Technologies from './components/Technologies/Technologies.js';
 import Services from './components/Services/Services.js';
 import Footer from './components/Footer/Footer.js';
+import Blogs from './components/Blogs/Blogs.js';
+import WatchPlanet from './components/Projects/Project/WatchPlanet/WatchPlanet.js';
+import TourInChina from './components/Projects/Project/TourInChina/TourInChina.js';
+import NNBHealthCare from './components/Projects/Project/NNBHealthCare/NNBHealthCare.js';
+import SubmitSuccess from './components/SubmitSuccess/SubmitSuccess.js';
 
 function App() {
   return (
@@ -16,6 +21,9 @@ function App() {
         <Header></Header>
       <Switch>
                 <Route exact path="/">
+                    <Home></Home>
+                </Route>
+                <Route path="/home">
                     <Home></Home>
                 </Route>
                 <Route path="/about">
@@ -27,45 +35,30 @@ function App() {
                 <Route path="/projects">
                     <Projects></Projects>
                 </Route>
-                <Route path="/services">
+                <Route path="/submit/success">
+                    <SubmitSuccess></SubmitSuccess>
+                </Route>
+                <Route path="/watchplanet">
+                    <WatchPlanet></WatchPlanet>
+                </Route>
+                <Route path="/tourinchina">
+                    <TourInChina></TourInChina>
+                </Route>
+                <Route path="/nnb-healthcare">
+                    <NNBHealthCare></NNBHealthCare>
+                </Route>
+                <Route path="/expertise">
                     <Services></Services>
                 </Route>
+                <Route path="/myblogs">
+                    <Blogs></Blogs>
+          </Route>
                 <Route path="/contact">
                     <Contact></Contact>
           </Route>
           
 
-                {/* ---------- Route for Projects ---------- */}
-                {/* <Route path="/">
-                    <DigitalHaat></DigitalHaat>
-                </Route>
-                <Route path="/">
-                    <TechHub></TechHub>
-                </Route>
-                <Route path="/loan-emi-calculator">
-                    <LoanEMI></LoanEMI>
-                </Route>
-                <Route path="/car-wash">
-                    <CarWash></CarWash>
-                </Route>
-                <Route path="/todo-app">
-                    <Todo></Todo>
-                </Route>
-                <Route path="/office-management">
-                    <OfficeManagement></OfficeManagement>
-                </Route>
-                <Route path="/calculator">
-                    <Calculator></Calculator>
-                </Route>
-                <Route path="/view-foundation">
-                    <VIEWFoundation></VIEWFoundation>
-                </Route>
-                <Route path="/weather-info">
-                    <WeatherInfo></WeatherInfo>
-                </Route>
-                <Route path="/honda-cbr">
-                    <HondaCBR></HondaCBR>
-                </Route> */}
+                
         </Switch>
         <Footer></Footer>
         </Router>
