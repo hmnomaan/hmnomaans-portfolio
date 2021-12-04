@@ -14,7 +14,7 @@ const Projects = () => {
         <p>proving my self in real worlds project with various technology</p>
         <Row xs={1} md={3} className="g-4 mt-5">
           <Col>
-           <Card data-aos="fade-up"
+           <Card data-aos="flip-right"
      data-aos-duration="3000"className="  project-container bg-light">
               <Card.Body>
                 <Card.Text className="">
@@ -63,7 +63,7 @@ orders, manage all products.</small>
             </Card>
           </Col>
           <Col>
-           <Card data-aos="fade-up"
+           <Card data-aos="flip-right"
      data-aos-duration="3000"className="project-container bg-light">
               <Card.Body>
                 <Card.Text className="">
@@ -111,7 +111,7 @@ control all orders, manage all products.</small>
             </Card>
           </Col>
           <Col>
-           <Card data-aos="fade-up"
+           <Card data-aos="flip-right"
      data-aos-duration="3000"className="project-container bg-light">
               <Card.Body>
                 <Card.Text className="">
@@ -164,4 +164,7 @@ control all orders, manage all products.</small>
 };
 
 export default Projects;
+
+
+
 

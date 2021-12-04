@@ -49,7 +49,7 @@ const Banner = () => {
           <h2 id="type" >
             <Typewriter
   options={{
-    strings: ['Junior Software Engineer', 'Full-Stack Developer', 'Coffee Addict'],
+    strings: ['Junior Software Engineer', 'Full-Stack Developer', 'Coffee Addicted'],
     autoStart: true,
     loop: true,
   }}
